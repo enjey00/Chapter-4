@@ -24,7 +24,7 @@ class Act_of_shooting(Gun):
 
 soldier = Act_of_shooting('Ryan', 'AK47')
 soldier.fire_bullets()
-soldier.reload_bullets(15)
+soldier.reload_bullets(7)
 soldier.fire_bullets()
 soldier.reload_bullets(7)
 soldier.fire_bullets()

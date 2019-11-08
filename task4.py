@@ -7,7 +7,7 @@ class ContactList(list):
             if a in name:
                 print(a)
 
-all_contacts = ContactList('Zhenishbek', 'Altynbek', 'Orozobek')
+all_contacts = ContactList('Zhenishbek', 'Altynbek', 'Orozobek', 'Orozobek')
 all_contacts.search_by_name('Orozobek')
 
 
